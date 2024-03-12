@@ -34,6 +34,20 @@ body{
     line-height: 100px;
 
 }
+
+.firstParagraph img{
+    width: 1000px;
+    height: 600px;
+    border-radius: 50px;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    border: 5px solid black;
+}
+
+.firstParagraph{
+    margin: 400px 0 0 0;
+}
 /* STYLE FOR HEADER HTML ELEMENTS */
 
 .headerTitle{
@@ -144,7 +158,7 @@ a:link{
 /*CSS STYLE FOR FOOTER*/
 .footerElement{
     width: 100%;
-    margin: 200px 0 0 0;
+    margin: 600px 0 0 0;
     text-align: center;
     border-top: 2px black solid;
     background-color:lightblue;

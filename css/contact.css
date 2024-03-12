@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    justify-content: center;
+    align-items: center;
+    line-height: 2em;
+    height: 100vh;
+    
+}
+.textField{
+    text-align: center;
+    text-indent: 100px;
+    position: relative;
+    bottom: 30px;
+    font-size: 23px;
+    line-height: 2;
+    padding: 50px;
+
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    font-size: 30px;
+    line-height: 100px;
+
+}
+/* STYLE FOR HEADER HTML ELEMENTS */
+
+.headerTitle{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+    max-width: 100%;
+}
+  
+.headerQuote{
+      font-size: 25px;
+      font-style: italic;
+      font-family: 'Playfair Display', serif;
+      padding-top: 20px;
+      padding-left: 10px;
+      text-align: center;
+      font-weight: bold;
+}
+/*//////////////////////////////////////////////////////////*/
+
+/* ASIDE ELEMENT FOR CONTAINER///////////////////////////////*/
+
+/*//////////////////////////////////////////////////////////*/
+
+/* STYLE FOR CAOURSEL HTML ELEMENT */
+.hobbiesPictures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hobbiesPictures img{
+    border-radius: 50px;
+    height: 400px;
+    width: 600px;
+    padding: 20px;
+}
+/* STYLE FOR NAV HTML ELEMENTS /////////////////////////////////*/
+
+.navigationBar{
+    background-color: lightblue;
+    position: relative;
+    min-width: 320px;
+    margin-bottom: 20px;
+    top:-95px;
+}
+
+nav a{
+    color: black;
+}
+
+nav a:hover{
+    color: white;
+}
+
+nav li{
+    position:relative;
+    top:-3px;
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    padding-left:5em;
+    padding-right:5em;
+    font-family: 'Playfair Display', serif;
+    font-size:25px;
+
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.navigationBorder{
+    border-top: 2.5px solid black;
+    border-bottom: 2.5px solid black;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
+/*//////////////////////////////////////////////////////////*/
+
+/* STYLE FOR HEADSHOT IMAGE ELEMENT */
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding:0;
+    margin:0;
+    position: relative;
+    padding-left: 20px;
+}
+
+.image img{
+    display: block;
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    margin-right:90%;
+    margin-bottom: 20px;
+    border: 5px solid black;
+    position: relative;
+    top:-80px;
+}
+/*//////////////////////////////////////////////////////////*/
+
+/*CSS STYLE FOR FOOTER*/
+.footerElement{
+    width: 100%;
+    margin: 200px 0 0 0;
+    text-align: center;
+    border-top: 2px black solid;
+    background-color:lightblue;
+    font-size: 23px;
+    line-height: 1.5;
+    font-weight: bold;
+    color:black;
+}
